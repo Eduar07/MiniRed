@@ -1,7 +1,10 @@
 # ================================================================
 # 🔐 ISSUE #2 - INICIO DE SESIÓN
 # ================================================================
+from Utilidades import *
+from rich.console import Console
 
+console = Console()
 def iniciar_sesion(path: str):
     datos = leerJson(path)
     while True:
