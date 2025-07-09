@@ -1,3 +1,9 @@
+from Utilidades import *
+from rich.console import Console
+
+console = Console()
+
+
 def Me_Gusta(usuario_actual, archivo_usuarios='usuarios.json', archivo_publicaciones='publicaciones.json'):
     publicaciones = leerJson(archivo_publicaciones)
     usuarios = leerJson(archivo_usuarios)
