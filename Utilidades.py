@@ -96,3 +96,8 @@ def Validacion_Ingreso(mensaje: str, valorminimo: int = 0, valormaximo: int = 6)
 
 def numero_aleatorio():
     return random.randint(1, 1000)
+
+
+
+
+##def fecha_actual():

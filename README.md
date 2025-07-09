@@ -31,3 +31,4 @@ Este proyecto se desarrolló como parte de una práctica de Scrum en un entorno 
 - Listado de usuarios registrados.
 - Cierre de sesión.
 - Menú de navegación amigable por consola.
+-
