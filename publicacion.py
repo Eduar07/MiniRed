@@ -88,10 +88,4 @@ def mostrar_historial(usuario_actual, archivo_Publicaciones="publicaciones.json"
                     console.print(f"[magenta]❤ {usuario}[/magenta]")
             else:
                 console.print("Esta publicación no tiene reacciones de me gusta.", style="bold yellow")
-            
-            
-            
-
-
-
 

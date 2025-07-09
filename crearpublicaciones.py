@@ -1,6 +1,9 @@
 # ================================================================
 # 📝 ISSUE #4 - CREAR PUBLICACIÓN
 # ================================================================
+from Utilidades import *
+from datetime import datetime
+
 
 TIPOS_PUBLICACION = {
     "1": " Noticias Tech",
@@ -20,7 +23,7 @@ def crear_publicacion(usuario_actual, archivo_usuarios='usuarios.json', archivo_
 
     while True:
         tipo_opcion = input("Ingrese el número del tipo de publicación: ").strip()
-        if tipo_opcion in TIPOS_PUBsLICACION:
+        if tipo_opcion in TIPOS_PUBLICACION:
             tipo_publicacion = TIPOS_PUBLICACION[tipo_opcion]
             break
         else:
