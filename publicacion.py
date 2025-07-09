@@ -3,7 +3,10 @@
 # 📦 IMPORTACIONES
 # ================================================================
 from Utilidades import *
+from rich.console import Console
+from rich.table import Table
 
+console = Console()
 def Ver_Publicaciones(archivo_Publicaciones="publicaciones.json"):
     clear_screen()
     datos = leerJson(archivo_Publicaciones)
