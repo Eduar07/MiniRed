@@ -1,0 +1,65 @@
+[
+    {
+        "numero": 438,
+        "usuario": "mendezm3",
+        "tipo": " Noticias Tech",
+        "contenido": "NUEVOS CURSO DE PROGRAMACION",
+        "fecha": "2025-07-07 19:33:46",
+        "me gusta": [
+            "mendezm3"
+        ],
+        "comentario": [
+            {
+                "usuario": "mendezm3",
+                "fecha": "2025-07-07 19:49:13",
+                "comentario": "me gustaria saber mas de los cursos"
+            },
+            {
+                "usuario": "mendezm3",
+                "fecha": "2025-07-07 20:12:37",
+                "comentario": "que cursos tiene"
+            }
+        ]
+    },
+    {
+        "numero": 435,
+        "usuario": "mendezm3",
+        "tipo": " Logros y Experiencias",
+        "contenido": "en este monento me gane un curso de python a nivel nacional hoy soy yo ma\u00f1ana pueden ser ustedes",
+        "fecha": "2025-07-07 20:04:23",
+        "me gusta": [
+            "mendezm3"
+        ],
+        "comentario": [
+            {
+                "usuario": "mendezm3",
+                "fecha": "2025-07-07 20:07:47",
+                "comentario": "me gustaria saber el concurso"
+            }
+        ]
+    },
+    {
+        "numero": 586,
+        "usuario": "mendezcuadros",
+        "tipo": " Recursos y Aprendizaje",
+        "contenido": "les reecomiendo estudiar git hub",
+        "fecha": "2025-07-07 20:18:51",
+        "me gusta": [],
+        "comentario": [
+            {
+                "usuario": "mendezcuadros",
+                "fecha": "2025-07-07 20:19:48",
+                "comentario": "la verdad me podria recomendar un canal"
+            }
+        ]
+    },
+    {
+        "numero": 878,
+        "usuario": "mendezm3",
+        "tipo": " Noticias Tech",
+        "contenido": "hjfsdhj",
+        "fecha": "2025-07-08 23:36:43",
+        "me gusta": [],
+        "comentario": []
+    }
+]
