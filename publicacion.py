@@ -2,45 +2,7 @@
 # ================================================================
 # 📦 IMPORTACIONES
 # ================================================================
-import os
-import random
-import json
-from datetime import datetime
-import questionary
-from rich.console import Console
-from rich.text import Text
-from rich.prompt import Prompt
-from rich.table import Table
-from datetime import datetime
-
-
-console = Console()
-
-# ================================================================
-# 📁 FUNCIONES PARA MANEJO DE ARCHIVOS JSON (ISSUE GLOBAL)
-# ================================================================
-
-def leerJson(path: str):
-    try:
-        with open(path, mode='r') as file:
-            datos = json.load(file)
-            return datos
-    except FileNotFoundError:
-        return []
-
-def escribirJson(path: str, data: list):
-    with open(path, mode='w') as file:
-        json.dump(data, file, indent=4)
-
-# ================================================================
-# 🛠️ FUNCIONES DE UTILIDAD (ISSUE GLOBAL)
-# ================================================================
-
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
-
-def espacio():
-    console.print("\n" * 1)
+from Utilidades import *
 
 def Ver_Publicaciones(archivo_Publicaciones="publicaciones.json"):
     clear_screen()
