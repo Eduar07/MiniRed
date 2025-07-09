@@ -1,3 +1,9 @@
+from Utilidades import *
+from datetime import datetime
+from rich.console import Console
+from rich.prompt import Prompt
+console = Console()
+
 def Crear_Comentario(usuario_actual, archivo_usuarios='usuarios.json', archivo_publicaciones='publicaciones.json'):
     publicaciones = leerJson(archivo_publicaciones)
     usuarios = leerJson(archivo_usuarios)
@@ -17,5 +23,5 @@ def Crear_Comentario(usuario_actual, archivo_usuarios='usuarios.json', archivo_p
             i["comentario"].append(Nuevo_Comentario)
             
     escribirJson(archivo_publicaciones, publicaciones)
-  
+
 #comentario sobre redprogramadores.
